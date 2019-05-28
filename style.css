@@ -59,6 +59,12 @@ h1 {
     box-shadow: 0 0 1rem rgb(235, 228, 228);
 }
 
+.playing3 {
+    transform: scale(1.1);
+    border-color: rgb(193, 108, 219);
+    box-shadow: 0 0 1rem #b8b6b2;
+}
+
 kbd {
     display: block;
     font-size: 4rem;

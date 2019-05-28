@@ -20,7 +20,12 @@ function playSound(e) {
         // key.classList.remove('playing');
         key.classList.add('playing2');
     }
+    if (audio.ended) {
+        key.classList.add('playing3');
+        //try make it work!!
+    }
 }
+
 
 
 const keys = Array.from(document.querySelectorAll('.key'));
